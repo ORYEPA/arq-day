@@ -1,0 +1,62 @@
+:root {
+  --bg: #0f1221;
+  --card: #171a2b;
+  --text: #f4f6ff;
+  --subtext: #c7cbff;
+}
+
+* { box-sizing: border-box; }
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: radial-gradient(1200px 800px at 50% 20%, #1b2040 0%, var(--bg) 60%);
+  color: var(--text);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.container {
+  min-height: 100%;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 16px;
+  padding: 28px 32px;
+  max-width: 720px;
+  width: 100%;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.35);
+}
+
+h1 {
+  margin: 0 0 12px;
+  font-size: clamp(28px, 4vw, 40px);
+  letter-spacing: 0.5px;
+}
+
+.subtitle {
+  margin: 0 0 20px;
+  color: var(--subtext);
+}
+
+pre.ascii {
+  margin: 0;
+  white-space: pre;
+  line-height: 1.05;
+  font-size: clamp(10px, 2.1vw, 16px);
+  user-select: none;
+}
+
+.footer {
+  margin-top: 16px;
+  font-size: 12px;
+  color: #9aa0ff;
+  opacity: 0.9;
+}
