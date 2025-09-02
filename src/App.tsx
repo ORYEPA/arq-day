@@ -4,7 +4,7 @@ export default function App() {
   return (
     <div className="container">
       <div className="card">
-        <h1>¡Feliz cumpleaños Nico! 🎉🎂</h1>
+        <h1>¡Feliz cumpleaños! 🎉🎂</h1>
         <p className="subtitle">
           Que se cumplan todos tus deseos. Aquí tienes un pastel:
         </p>
