@@ -4,14 +4,14 @@ export default function App() {
   return (
     <div className="container">
       <div className="card">
-        <h1>¡Feliz cumpleaños! 🎉🎂</h1>
+        <h1>¡Feliz día del arquitecto! 🎉🎂</h1>
         <p className="subtitle">
-          Que se cumplan todos tus deseos. Aquí tienes un pastel:
+          Feliz día al arquitecto que me va a sacar de trabajar ♥
         </p>
 
         <ASCIICake fps={5} />
 
-        
+        <p className="footer">hecho por: Andrea Peyro</p>
       </div>
     </div>
   );

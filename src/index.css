@@ -55,8 +55,9 @@ pre.ascii {
 }
 
 .footer {
-  margin-top: 16px;
-  font-size: 12px;
-  color: #9aa0ff;
-  opacity: 0.9;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #888;
+  text-align: left;
+  font-style: italic;
 }
